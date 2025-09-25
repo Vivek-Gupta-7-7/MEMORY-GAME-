@@ -1,0 +1,30 @@
+/* src/components/PlayerForm.css */
+.player-form {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .player-form h2 {
+    color: #333;
+  }
+  
+  .player-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .player-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .player-form button:hover {
+    background-color: #45a049;
+  }

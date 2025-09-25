@@ -1,0 +1,31 @@
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .moves {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .current-player {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+  }
